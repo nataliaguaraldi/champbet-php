@@ -18,14 +18,21 @@
 
 		<p id="logo">ChampBet!</p>
 
+
+
 		<div id="headerLogin">
+
 			<form method="post" action="login.cgi">
-				<p>LOGIN:</p>
+
 				<input type="email" placeholder="E-mail">
 				<input type="password" placeholder="Password">
+				<input type="submit" value="Sign In">
+
 			</form>
 
 		</div>
+
+
 
 		<div id="chooseLanguage">
 			<p>Choose your language</p>
@@ -51,13 +58,17 @@
 		
 
 		<div id="rightContent">
+
+
 			<br><br><br>
 			<p id="rightLogo">ChampBet!</p>
 			<br><br><br>
 			
+
+
 			<div id="loginform">
 
-				<form method="post" action="register.html">
+				<form method="post" action="register.php">
 					
 					<table>
 						<tr><td><p id="loginFormTitle">Join Now!</p></td></tr>
@@ -69,13 +80,17 @@
 
 				</form>
 
-				<form method="post" action="login.html">
+
+				<form method="get" action="login.php">
 
 					<p><input type="submit" value="Already a member? Sign in"></p>
 
 				</form>
 
+
 			</div>
+
+
 
 		</div>
 
