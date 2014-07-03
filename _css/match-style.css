@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+body {
+
+		background-color: #eeeeee;
+
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
+
+	}
+
+
+
+
+
+div#content-section {
+	background-color: white;
+	font-family: "Helvetica";
+	font-size: 12pt;
+	width: 900px;
+	margin: -22px auto 0px auto;
+	border: 0px;
+	padding: 150px 50px 50px 50px;
+	box-shadow: 2px 2px 10px #666666;
+}
+
+#content-section img {
+
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+
+	box-shadow: 1px 1px 4px #cccccc;
+	
+}
+
+
+/* ------------------ Phase Menu -------------------- */
+
+
+		div.phase-menu {
+
+			width: 490px;
+			height: 60px;
+			padding: 0px;
+			border: 1px;
+			margin: 0px auto 0px auto;
+
+			font-size: 10pt;
+
+			
+			border-color: #FFF;
+		}
+
+		div.phase-item {
+
+			background-color: #333;
+
+			float: left;
+
+			width: 70px;
+			height: 100%;
+
+			text-align: center;
+
+			box-shadow: 4px 4px 7px #ccc;
+
+		}
+
+/* ----------------- Match style --------------------- */
+
+		div.match {
+
+			width: 850px;
+			height: 60px;
+			margin: 0px auto 0px auto;
+			box-shadow: 4px 4px 7px #666666;
+		
+		}
+
+		div.match > div {
+
+			float: left;
+
+			height: 100%;			
+
+			text-align: center;
+
+		}
+
+
+		div.match .date {
+			background-color: #333;
+			color: white;
+			width: 5%;
+		}
+
+		div.match .remaining {
+
+			width: 10%;
+		}
+
+
+		div.match .flag{
+
+			width: 10%;
+
+		}
+
+		div.match .team {
+
+			width: 20%;
+
+		}
+
+		div.match .score {
+
+			width: 5%;
+
+			font-size: 20pt;
+
+		}
+
+		div.match .symbol-versus {
+
+			width: 5%;
+
+		}
+
+		div.match .maxpoints {
+
+			width: 10%;
+
+		}
+
+
+		.Centerer
+		{
+
+			display: inline-block;
+			height: 100%;
+			vertical-align: middle;
+		
+		}
+
+		.flaghome
+		{
+
+			display: inline-block;
+			vertical-align: middle;
+		
+		}
+
+		.flagaway{
+			display: inline-block;
+			vertical-align: middle;			
+		}
